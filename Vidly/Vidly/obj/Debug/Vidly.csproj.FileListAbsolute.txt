@@ -196,3 +196,5 @@ G:\Tutorials\Dot Net\Git\MVC-Vidly\Vidly\Vidly\obj\Debug\Vidly.csproj.GenerateRe
 G:\Tutorials\Dot Net\Git\MVC-Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddIsSubcribedToNewsLetterAndMembershipTypeClass.resources
 G:\Tutorials\Dot Net\Git\MVC-Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.PopulateMembershipType.resources
 G:\Tutorials\Dot Net\Git\MVC-Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddCustomerNameRequiredAndLength.resources
+G:\Tutorials\Dot Net\Git\MVC-Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddNameToMembershipType.resources
+G:\Tutorials\Dot Net\Git\MVC-Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.UpdateNameInMembershipType.resources
