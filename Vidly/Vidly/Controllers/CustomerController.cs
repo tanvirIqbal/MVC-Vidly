@@ -9,6 +9,16 @@ namespace Vidly.Controllers
 {
     public class CustomerController : Controller
     {
+        private ApplicationDbContext _context;
+        public CustomerController()
+        {
+            _context = new ApplicationDbContext();
+        }
+        protected override void Dispose(bool disposing)
+        {
+            //base.Dispose(disposing);
+            _context.Dispose();
+        }
         // GET: Customer
         public ActionResult Index()
         {
@@ -18,13 +28,13 @@ namespace Vidly.Controllers
         public ActionResult ShowCustomers()
         {
             MovieViewModel oMovieViewModel = new MovieViewModel();
-            oMovieViewModel.Customers = GetCustomer();
+            oMovieViewModel.Customers = _context.Customers.ToList();
             return View("Customers",oMovieViewModel);
         }
 
         public ActionResult Details(int Id)
         {
-            Customer oCustomer = GetCustomer().FirstOrDefault(x => x.Id == Id);
+            Customer oCustomer = _context.Customers.FirstOrDefault(x => x.Id == Id);
             return View(oCustomer);
         }
 
