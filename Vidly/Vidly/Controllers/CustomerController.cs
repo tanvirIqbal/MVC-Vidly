@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
@@ -28,7 +29,7 @@ namespace Vidly.Controllers
         public ActionResult ShowCustomers()
         {
             MovieViewModel oMovieViewModel = new MovieViewModel();
-            oMovieViewModel.Customers = _context.Customers.ToList();
+            oMovieViewModel.Customers = _context.Customers.Include(x => x.MembershipType).ToList();
             return View("Customers",oMovieViewModel);
         }
 
