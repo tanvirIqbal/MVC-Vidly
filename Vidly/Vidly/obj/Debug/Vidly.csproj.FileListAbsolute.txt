@@ -198,3 +198,5 @@ G:\Tutorials\Dot Net\Git\MVC-Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.Popula
 G:\Tutorials\Dot Net\Git\MVC-Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddCustomerNameRequiredAndLength.resources
 G:\Tutorials\Dot Net\Git\MVC-Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddNameToMembershipType.resources
 G:\Tutorials\Dot Net\Git\MVC-Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.UpdateNameInMembershipType.resources
+G:\Tutorials\Dot Net\Git\MVC-Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddDOBToCustomer.resources
+G:\Tutorials\Dot Net\Git\MVC-Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.MakeDOBNullable.resources

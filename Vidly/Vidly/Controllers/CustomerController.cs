@@ -35,7 +35,7 @@ namespace Vidly.Controllers
 
         public ActionResult Details(int Id)
         {
-            Customer oCustomer = _context.Customers.FirstOrDefault(x => x.Id == Id);
+            Customer oCustomer = _context.Customers.Include(x => x.MembershipType).FirstOrDefault(x => x.Id == Id);
             return View(oCustomer);
         }
 
