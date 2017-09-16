@@ -4,12 +4,14 @@
     ViewBag.Title = "Details";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-
+@{ 
+    DateTime DOB = (DateTime)Model.BirthDate;
+}
 <h2>@Model.Name</h2>
 <ul>
     @if (Model.BirthDate != null)
     {
-        <li>Birthdate: @Model.BirthDate</li>
+        <li>Birthdate: @DOB.ToString("dd MMM yyyy")</li>
     }
     <li>Membership Type: @Model.MembershipType.Name</li>
     

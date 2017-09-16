@@ -200,3 +200,8 @@ G:\Tutorials\Dot Net\Git\MVC-Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddNam
 G:\Tutorials\Dot Net\Git\MVC-Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.UpdateNameInMembershipType.resources
 G:\Tutorials\Dot Net\Git\MVC-Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddDOBToCustomer.resources
 G:\Tutorials\Dot Net\Git\MVC-Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.MakeDOBNullable.resources
+G:\Tutorials\Dot Net\Git\MVC-Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddGenereTable.resources
+G:\Tutorials\Dot Net\Git\MVC-Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.PopulateGenre.resources
+G:\Tutorials\Dot Net\Git\MVC-Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddNewFieldToMovie.resources
+G:\Tutorials\Dot Net\Git\MVC-Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddGenereTable1.resources
+G:\Tutorials\Dot Net\Git\MVC-Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.PopulateGenre1.resources

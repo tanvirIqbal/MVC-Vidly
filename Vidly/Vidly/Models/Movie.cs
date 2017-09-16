@@ -9,5 +9,11 @@ namespace Vidly.Models
     {
         public int Id { get; set; }
         public string Name { get; set; }
+        public DateTime ReleaseDate { get; set; }
+        public DateTime AddedDate { get; set; }
+        public int AvailableStock { get; set; }
+        // This 2 lines is for foreign key
+        public Genre Genre { get; set; }
+        public int GenreId { get; set; }
     }
 }

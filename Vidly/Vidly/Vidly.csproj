@@ -229,9 +229,30 @@
     <Compile Include="Migrations\201709160403109_MakeDOBNullable.Designer.cs">
       <DependentUpon>201709160403109_MakeDOBNullable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201709160427017_AddGenereTable.cs" />
+    <Compile Include="Migrations\201709160427017_AddGenereTable.Designer.cs">
+      <DependentUpon>201709160427017_AddGenereTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201709160432547_PopulateGenre.cs" />
+    <Compile Include="Migrations\201709160432547_PopulateGenre.Designer.cs">
+      <DependentUpon>201709160432547_PopulateGenre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201709160441102_AddNewFieldToMovie.cs" />
+    <Compile Include="Migrations\201709160441102_AddNewFieldToMovie.Designer.cs">
+      <DependentUpon>201709160441102_AddNewFieldToMovie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201709160445120_AddGenereTable1.cs" />
+    <Compile Include="Migrations\201709160445120_AddGenereTable1.Designer.cs">
+      <DependentUpon>201709160445120_AddGenereTable1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201709160445421_PopulateGenre1.cs" />
+    <Compile Include="Migrations\201709160445421_PopulateGenre1.Designer.cs">
+      <DependentUpon>201709160445421_PopulateGenre1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\MembershipType.cs" />
@@ -306,6 +327,7 @@
     <Content Include="Views\Movies\Movies.cshtml" />
     <Content Include="Views\Customer\Customers.cshtml" />
     <Content Include="Views\Customer\Details.cshtml" />
+    <Content Include="Views\Movies\Details.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
@@ -347,6 +369,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201709160403109_MakeDOBNullable.resx">
       <DependentUpon>201709160403109_MakeDOBNullable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201709160427017_AddGenereTable.resx">
+      <DependentUpon>201709160427017_AddGenereTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201709160432547_PopulateGenre.resx">
+      <DependentUpon>201709160432547_PopulateGenre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201709160441102_AddNewFieldToMovie.resx">
+      <DependentUpon>201709160441102_AddNewFieldToMovie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201709160445120_AddGenereTable1.resx">
+      <DependentUpon>201709160445120_AddGenereTable1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201709160445421_PopulateGenre1.resx">
+      <DependentUpon>201709160445421_PopulateGenre1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

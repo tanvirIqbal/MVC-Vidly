@@ -9,7 +9,8 @@
 <table class="table table-bordered table­‐hover">
     <thead>
         <tr>
-            <th>Movies</th>
+            <td>Movie</td>
+            <td>Genre</td>
         </tr>
     </thead>
     <tbody>
@@ -17,7 +18,8 @@
         {
 
             <tr>
-                <td>@movie.Name</td>
+                <td>@Html.ActionLink(movie.Name, "Details", "Movies", new { id = movie.Id }, null)</td>  @*null is must*@
+                <td>@movie.Genre.Name</td>
             </tr>
 
         }
