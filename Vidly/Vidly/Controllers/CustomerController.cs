@@ -49,7 +49,7 @@ namespace Vidly.Controllers
             {
                 MembershipTypes = membershipType
             };
-            return View(viewModel);
+            return View("CustomerForm",viewModel);
         }
         [HttpPost] // To Make sure it only use Http Post not Http Get
         public ActionResult Create(Customer customer)
@@ -57,6 +57,20 @@ namespace Vidly.Controllers
             _context.Customers.Add(customer);
             _context.SaveChanges();
             return RedirectToAction("ShowCustomers","Customer");
+        }
+        public ActionResult Edit(int Id)
+        {
+            var customer = _context.Customers.SingleOrDefault(c => c.Id == Id);
+            if (customer == null)
+            {
+                return HttpNotFound();
+            }
+            var viewModel = new NewCustomerViewModel()
+            {
+                Customer = customer,
+                MembershipTypes = _context.MembershipTypes.ToList()
+            };
+            return View("CustomerForm", viewModel);
         }
         #endregion
 
