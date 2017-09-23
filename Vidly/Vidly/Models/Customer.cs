@@ -13,8 +13,9 @@ namespace Vidly.Models
         [StringLength(255)]
         public string Name { get; set; }
         public bool IsSubscribedToNewsLetter { get; set; }
-        // This 2 lines is for foreign key
+        // This 2 properties is for foreign key
         public MembershipType MembershipType { get; set; }
+        [Display(Name="Membership Type")]
         public int MembershipTypeId { get; set; }
         [Display(Name="Date of Birth")]
         public DateTime? BirthDate { get; set; }

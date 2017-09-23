@@ -188,11 +188,7 @@ G:\Tutorials\Dot Net\Git\MVC-Vidly\Vidly\Vidly\bin\Microsoft.AI.ServerTelemetryC
 G:\Tutorials\Dot Net\Git\MVC-Vidly\Vidly\Vidly\bin\Microsoft.AI.WindowsServer.xml
 G:\Tutorials\Dot Net\Git\MVC-Vidly\Vidly\Vidly\bin\Microsoft.AI.Web.xml
 G:\Tutorials\Dot Net\Git\MVC-Vidly\Vidly\Vidly\obj\Debug\Vidly.csprojResolveAssemblyReference.cache
-G:\Tutorials\Dot Net\Git\MVC-Vidly\Vidly\Vidly\obj\Debug\Vidly.csproj.CoreCompileInputs.cache
-G:\Tutorials\Dot Net\Git\MVC-Vidly\Vidly\Vidly\obj\Debug\Vidly.dll
-G:\Tutorials\Dot Net\Git\MVC-Vidly\Vidly\Vidly\obj\Debug\Vidly.pdb
 G:\Tutorials\Dot Net\Git\MVC-Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.InitialModel.resources
-G:\Tutorials\Dot Net\Git\MVC-Vidly\Vidly\Vidly\obj\Debug\Vidly.csproj.GenerateResource.Cache
 G:\Tutorials\Dot Net\Git\MVC-Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddIsSubcribedToNewsLetterAndMembershipTypeClass.resources
 G:\Tutorials\Dot Net\Git\MVC-Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.PopulateMembershipType.resources
 G:\Tutorials\Dot Net\Git\MVC-Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddCustomerNameRequiredAndLength.resources
@@ -205,3 +201,7 @@ G:\Tutorials\Dot Net\Git\MVC-Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.Popula
 G:\Tutorials\Dot Net\Git\MVC-Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddNewFieldToMovie.resources
 G:\Tutorials\Dot Net\Git\MVC-Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddGenereTable1.resources
 G:\Tutorials\Dot Net\Git\MVC-Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.PopulateGenre1.resources
+G:\Tutorials\Dot Net\Git\MVC-Vidly\Vidly\Vidly\obj\Debug\Vidly.csproj.GenerateResource.Cache
+G:\Tutorials\Dot Net\Git\MVC-Vidly\Vidly\Vidly\obj\Debug\Vidly.csproj.CoreCompileInputs.cache
+G:\Tutorials\Dot Net\Git\MVC-Vidly\Vidly\Vidly\obj\Debug\Vidly.dll
+G:\Tutorials\Dot Net\Git\MVC-Vidly\Vidly\Vidly\obj\Debug\Vidly.pdb
