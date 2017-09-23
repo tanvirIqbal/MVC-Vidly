@@ -51,6 +51,13 @@ namespace Vidly.Controllers
             };
             return View(viewModel);
         }
+        [HttpPost] // To Make sure it only use Http Post not Http Get
+        public ActionResult Create(Customer customer)
+        {
+            _context.Customers.Add(customer);
+            _context.SaveChanges();
+            return RedirectToAction("ShowCustomers","Customer");
+        }
         #endregion
 
         #region Methods
