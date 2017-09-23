@@ -10,6 +10,7 @@ namespace Vidly.Controllers
 {
     public class CustomerController : Controller
     {
+        #region Context
         private ApplicationDbContext _context;
         public CustomerController()
         {
@@ -20,7 +21,9 @@ namespace Vidly.Controllers
             //base.Dispose(disposing);
             _context.Dispose();
         }
-        // GET: Customer
+        #endregion
+
+        #region Actions
         public ActionResult Index()
         {
             return View();
@@ -30,7 +33,7 @@ namespace Vidly.Controllers
         {
             MovieViewModel oMovieViewModel = new MovieViewModel();
             oMovieViewModel.Customers = _context.Customers.Include(x => x.MembershipType).ToList();
-            return View("Customers",oMovieViewModel);
+            return View("Customers", oMovieViewModel);
         }
 
         public ActionResult Details(int Id)
@@ -38,7 +41,13 @@ namespace Vidly.Controllers
             Customer oCustomer = _context.Customers.Include(x => x.MembershipType).FirstOrDefault(x => x.Id == Id);
             return View(oCustomer);
         }
+        public ActionResult New()
+        {
+            return View();
+        }
+        #endregion
 
+        #region Methods
         public List<Customer> GetCustomer()
         {
             List<Customer> oCustomers = new List<Customer>()
@@ -48,6 +57,7 @@ namespace Vidly.Controllers
             };
 
             return oCustomers;
-        }
+        } 
+        #endregion
     }
 }
