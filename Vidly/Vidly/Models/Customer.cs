@@ -16,6 +16,7 @@ namespace Vidly.Models
         // This 2 lines is for foreign key
         public MembershipType MembershipType { get; set; }
         public int MembershipTypeId { get; set; }
+        [Display(Name="Date of Birth")]
         public DateTime? BirthDate { get; set; }
     }
 }
