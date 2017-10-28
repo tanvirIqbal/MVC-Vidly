@@ -42,6 +42,8 @@ namespace Vidly.Controllers
             Customer oCustomer = _context.Customers.Include(x => x.MembershipType).FirstOrDefault(x => x.Id == Id);
             return View(oCustomer);
         }
+
+        [Route("Customers/New")]
         public ActionResult New()
         {
             var membershipType = _context.MembershipTypes.ToList();
@@ -54,6 +56,15 @@ namespace Vidly.Controllers
         [HttpPost] // To Make sure it only use Http Post not Http Get
         public ActionResult Save(Customer customer)
         {
+            if (!ModelState.IsValid)
+            {
+                var viewModel = new NewCustomerViewModel()
+                {
+                    Customer = customer,
+                    MembershipTypes = _context.MembershipTypes.ToList()
+                };
+                return View("CustomerForm", viewModel);
+            }
             if (customer.Id == 0)
             {
                 _context.Customers.Add(customer);
