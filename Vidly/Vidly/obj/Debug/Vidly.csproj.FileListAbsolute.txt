@@ -205,3 +205,4 @@ G:\Tutorials\Dot Net\Git\MVC-Vidly\Vidly\Vidly\obj\Debug\Vidly.csproj.GenerateRe
 G:\Tutorials\Dot Net\Git\MVC-Vidly\Vidly\Vidly\obj\Debug\Vidly.csproj.CoreCompileInputs.cache
 G:\Tutorials\Dot Net\Git\MVC-Vidly\Vidly\Vidly\obj\Debug\Vidly.dll
 G:\Tutorials\Dot Net\Git\MVC-Vidly\Vidly\Vidly\obj\Debug\Vidly.pdb
+G:\Tutorials\Dot Net\Git\MVC-Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.ChangeInMovieClass.resources
