@@ -54,6 +54,7 @@ namespace Vidly.Controllers
             return View("CustomerForm",viewModel);
         }
         [HttpPost] // To Make sure it only use Http Post not Http Get
+        [ValidateAntiForgeryToken] // for AntiForgeryToken
         public ActionResult Save(Customer customer)
         {
             if (!ModelState.IsValid)
