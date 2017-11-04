@@ -20,6 +20,7 @@ namespace Vidly.App_Start
             // For AutoMapper version over 4.2
             CreateMap<Customer, CustomerDTO>();
             CreateMap<CustomerDTO, Customer>();
+            CreateMap<CustomerDTO, Customer>().ForMember(c => c.Id, opt => opt.Ignore());
         }
     }
 }
