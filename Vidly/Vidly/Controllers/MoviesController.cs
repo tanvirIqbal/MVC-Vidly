@@ -29,10 +29,11 @@ namespace Vidly.Controllers
         [Route("Movies")]
         public ActionResult ShowMovies()
         {
-            MovieViewModel oMovieViewModel = new MovieViewModel();
-            oMovieViewModel.Movies = _context.Movies.Include(x => x.Genre).ToList();
+            //MovieViewModel oMovieViewModel = new MovieViewModel();
+            //oMovieViewModel.Movies = _context.Movies.Include(x => x.Genre).ToList();
 
-            return View("Movies",oMovieViewModel);
+            //return View("Movies",oMovieViewModel);
+            return View("Movies");
         }
 
         public ActionResult Details(int Id)
@@ -82,7 +83,7 @@ namespace Vidly.Controllers
             _context.SaveChanges();
             return RedirectToAction("ShowMovies", "Movies");
         }
-
+        [Route("Movies/Edit/{id}")]
         public ActionResult Edit(int Id)
         {
             var movie = _context.Movies.SingleOrDefault(m => m.Id == Id);
