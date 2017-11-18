@@ -32,9 +32,10 @@ namespace Vidly.Controllers
         [Route("Customers")]
         public ActionResult ShowCustomers()
         {
-            MovieViewModel oMovieViewModel = new MovieViewModel();
-            oMovieViewModel.Customers = _context.Customers.Include(x => x.MembershipType).ToList();
-            return View("Customers", oMovieViewModel);
+            //MovieViewModel oMovieViewModel = new MovieViewModel();
+            //oMovieViewModel.Customers = _context.Customers.Include(x => x.MembershipType).ToList();
+            //return View("Customers", oMovieViewModel);
+            return View("Customers");
         }
 
         public ActionResult Details(int Id)
@@ -83,6 +84,7 @@ namespace Vidly.Controllers
             _context.SaveChanges();
             return RedirectToAction("ShowCustomers","Customer");
         }
+        [Route("Customers/Edit/{id}")]
         public ActionResult Edit(int Id)
         {
             var customer = _context.Customers.SingleOrDefault(c => c.Id == Id);
