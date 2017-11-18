@@ -6,23 +6,43 @@
 }
 
 <h2>Customers</h2>
-
-<table class="table table-bordered table-hover">
-    <thead>
-        <tr>
-            <td>Customer</td>
-            <td>Membership Type</td>
-            <td>Discount Rate</td>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var customer in Model.Customers)
-        {
+@*@if (Model.Customers.Any())
+{
+    <p>We don't have any customer.</p>
+}
+else
+{*@
+    <table id="customers" class="table table-bordered table-hover">
+        <thead>
             <tr>
-                <td>@Html.ActionLink(customer.Name, "Edit", "Customer", new { id = customer.Id }, null)</td>  @*null is must*@
-                <td>@customer.MembershipType.Name</td>
-                <td>@customer.MembershipType.DiscountRate%</td>
+                <td>Customer</td>
+                <td>Membership Type</td>
+                <td>Discount Rate</td>
+                <td>Delete</td>
             </tr>
-        }
-    </tbody>
-</table>
+        </thead>
+        <tbody>
+            @foreach (var customer in Model.Customers)
+            {
+                <tr>
+                    <td>@Html.ActionLink(customer.Name, "Edit", "Customer", new { id = customer.Id }, null)</td>  @*null is must*@
+                    <td>@customer.MembershipType.Name</td>
+                    <td>@customer.MembershipType.DiscountRate%</td>
+                    <td>
+                        <button class="btn-link js-delete">Delete</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+@*}*@
+@section scripts
+{
+    <script>
+        $(document).ready(function () {
+            $("#customers .js-delete").on("click", function () {
+                confirm("Are you sure to delete this customer?");
+            });
+        });
+    </script>
+}

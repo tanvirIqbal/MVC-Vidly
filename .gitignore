@@ -3,3 +3,6 @@
 ################################################################################
 
 /Vidly/.vs/Vidly/v15/Server/sqlite3
+/Vidly/.vs/Vidly/v15/sqlite3/db.lock
+/Vidly/.vs/Vidly/v15/sqlite3/storage.ide-shm
+/Vidly/.vs/Vidly/v15/sqlite3/storage.ide-wal

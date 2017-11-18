@@ -195,6 +195,7 @@ G:\Tutorials\Dot Net\Git\MVC-Vidly\Vidly\Vidly\bin\Microsoft.AI.DependencyCollec
 G:\Tutorials\Dot Net\Git\MVC-Vidly\Vidly\Vidly\bin\Microsoft.AI.ServerTelemetryChannel.xml
 G:\Tutorials\Dot Net\Git\MVC-Vidly\Vidly\Vidly\bin\Microsoft.AI.WindowsServer.xml
 G:\Tutorials\Dot Net\Git\MVC-Vidly\Vidly\Vidly\bin\Microsoft.AI.Web.xml
+G:\Tutorials\Dot Net\Git\MVC-Vidly\Vidly\Vidly\obj\Debug\Vidly.csprojResolveAssemblyReference.cache
 G:\Tutorials\Dot Net\Git\MVC-Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.InitialModel.resources
 G:\Tutorials\Dot Net\Git\MVC-Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddIsSubcribedToNewsLetterAndMembershipTypeClass.resources
 G:\Tutorials\Dot Net\Git\MVC-Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.PopulateMembershipType.resources
@@ -213,4 +214,3 @@ G:\Tutorials\Dot Net\Git\MVC-Vidly\Vidly\Vidly\obj\Debug\Vidly.csproj.GenerateRe
 G:\Tutorials\Dot Net\Git\MVC-Vidly\Vidly\Vidly\obj\Debug\Vidly.csproj.CoreCompileInputs.cache
 G:\Tutorials\Dot Net\Git\MVC-Vidly\Vidly\Vidly\obj\Debug\Vidly.dll
 G:\Tutorials\Dot Net\Git\MVC-Vidly\Vidly\Vidly\obj\Debug\Vidly.pdb
-G:\Tutorials\Dot Net\Git\MVC-Vidly\Vidly\Vidly\obj\Debug\Vidly.csprojResolveAssemblyReference.cache
